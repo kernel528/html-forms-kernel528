@@ -1,0 +1,56 @@
+/* Mobile first design... */
+body {
+    background-color: #eee;
+}
+header {
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 52px;
+    text-align: center;
+    margin: 0;
+}
+
+/*main {*/
+/*    background-color: gray;*/
+/*}*/
+main {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+}
+
+form div textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 5px;
+    float: left;
+}
+
+/* Desktop formatting */
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 0 30px;
+    }
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+    }
+}
